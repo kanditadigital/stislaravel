@@ -1,0 +1,25 @@
+{
+    "name": "Kandita/Stislaravel",
+    "description": "Template admin panel menggunakan stisla dan blade laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "kandita\\stislaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kandita\\Stislaravel\\StislaravelServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/Kandita/Stislaravel"
+        }
+    ],
+
+    "require": {}
+}
