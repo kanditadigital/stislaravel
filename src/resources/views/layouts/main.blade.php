@@ -7,10 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/components.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/stislaravel/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/stislaravel/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/stislaravel/css/components.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('vendor/stislaravel/css/all.min.css') }}">
 </head>
 <body>
 
@@ -32,10 +32,10 @@
         </div>
     </div>
 
-    <script src="{{ asset('js/jquery-3.7.1.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/scripts.js') }}"></script>
-    <script src="{{ asset('js/jquery.nicescroll.min.js') }}"></script>
-    <script src="{{ asset('js/stisla.js') }}"></script>
+    <script src="{{ asset('vendor/stislaravel/js/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ asset('vendor/stislaravel/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('vendor/stislaravel/js/scripts.js') }}"></script>
+    <script src="{{ asset('vendor/stislaravel/js/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ asset('vendor/stislaravel/js/stisla.js') }}"></script>
 </body>
 </html>
