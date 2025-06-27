@@ -21,7 +21,6 @@
             @include('layouts.sidebar')
 
             <div class="main-content">
-                @include('sweetalert::alert')
                 <div class="mt-3">
                     @yield('content')
                 </div>

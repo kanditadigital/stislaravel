@@ -10,12 +10,13 @@ class StislaravelServiceProvider extends ServiceProvider
     {
         // 1. Register Blade views dari package
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'stislaravel');
-        $this->loadViewsFrom(__DIR__ . '/public', 'stislaravel');
 
         // 2. Publikasi view dan assets ke proyek Laravel
         $this->publishes([
             __DIR__ . '/resources/views' => resource_path('views/'),
             __DIR__ . '/public' => public_path('vendor/stislaravel'),
+            __DIR__ . '/app/Http/Controllers' => app_path('Http/Controllers/'),
+            __DIR__ . '/routes' => base_path('routes/')
         ], 'stislaravel');
     }
 

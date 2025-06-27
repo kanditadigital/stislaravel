@@ -1,4 +1,4 @@
-@extends('stislaravel::layouts.app')
+@extends('stislaravel::layouts.main')
 
 @section('content')
     <div class="section-body">

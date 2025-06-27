@@ -8,16 +8,12 @@
     <ul class="navbar-nav navbar-right">
         <li class="dropdown">
             <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
-                @auth()
-                    @if(Auth::user())
-                        <div class="d-sm-none d-lg-inline-block">
-                            {{ Auth::user()->name }}
-                        </div>
-                    @endif
-                @endauth
+                <div class="d-sm-none d-lg-inline-block">
+                    Puguh Sulistyo Pambudi
+                </div>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
-                <form action="{{ route('logout') }}" method="post">
+                <form action="" method="post">
                     @csrf
                     <button type="submit" class="dropdown-item"><i class="fas fa-fw fa-power-off"></i> Keluar</button>
                 </form>
