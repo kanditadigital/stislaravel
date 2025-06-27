@@ -15,7 +15,7 @@ class StislaravelServiceProvider extends ServiceProvider
         // 2. Publikasi view dan assets ke proyek Laravel
         $this->publishes([
             __DIR__ . '/resources/views' => resource_path('views/'),
-            __DIR__ . '/resources/public' => public_path('vendor/stislaravel'),
+            __DIR__ . '/public' => public_path('vendor/stislaravel'),
         ], 'stislaravel');
     }
 
