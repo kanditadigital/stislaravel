@@ -20,11 +20,6 @@
             "url": "./packages/Kandita/Stislaravel"
         }
     ],
-    "scripts": {
-        "post-autoload-dump": [
-            "@php artisan vendor:publish --tag=stislaravel --force"
-        ]
-    },
 
     "require": {}
 }
