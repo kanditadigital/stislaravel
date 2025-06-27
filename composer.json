@@ -1,5 +1,5 @@
 {
-    "name": "Kandita/Stislaravel",
+    "name": "kandita/stislaravel",
     "description": "Template admin panel menggunakan stisla dan blade laravel",
     "type": "library",
     "autoload": {
