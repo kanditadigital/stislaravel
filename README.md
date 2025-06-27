@@ -10,11 +10,17 @@ Jalankan perintah berikut di proyek baru Laravel Anda:
 
 ```bash
 composer require kandita/stislaravel
+```
+Selanjutnya jalankan perintah berikut:
+```bash
 php artisan stislaravel:install
 ```
+
 ## Perintah di atas akan mempublikasikan:
 
-View ke resources/views
-Aset publik ke public/vendor/stislaravel
-Controller DashboardController ke app/Http/Controllers/
-Route tambahan ke routes/web.php
+<ul>
+  <li>View ke resources/views</li>
+  <li>Aset publik ke public/vendor/stislaravel</li>
+  <li>Controller DashboardController ke app/Http/Controllers/</li>
+  <li>Route tambahan ke routes/web.php</li>
+</ul>
