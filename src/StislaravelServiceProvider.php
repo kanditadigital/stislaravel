@@ -12,7 +12,8 @@ class StislaravelServiceProvider extends ServiceProvider
 
         // Optional: publish views to project
         $this->publishes([
-            __DIR__ . '/resources/views' => resource_path('views/stislaravel'),
+            __DIR__ . '/resources/views' => resource_path('views/'),
+            __DIR__ . '/resources/public' => public_path('public/'),
         ], 'stislaravel');
     }
 
