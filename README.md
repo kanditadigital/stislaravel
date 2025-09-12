@@ -25,7 +25,7 @@ php artisan stislaravel:install
   <li>Route tambahan ke routes/web.php</li>
 </ul>
 
-##Jika sudah, selanjutnya jalankan perintah berikut
+## Jika sudah, selanjutnya jalankan perintah berikut
 ```bash
 php artisan serve
 ```
